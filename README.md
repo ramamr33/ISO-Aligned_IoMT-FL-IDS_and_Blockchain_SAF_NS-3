@@ -27,6 +27,7 @@ The proposed architecture models a heterogeneous IoMT environment comprising med
 
 #### Figure 1: IoMT network architecture with MITM attack vector, FL-IDS detection layer, and blockchain audit logging (RM Rajab et al., 2025).
 
+
 The WIP is throughput-critical—concerned primarily with reliable delivery of infusion commands—while the SHS is timing-critical, requiring consistent packet inter-arrival intervals for accurate physiological monitoring.
 
 Communication is supported via a hybrid Wi-Fi (IEEE 802.11) and Bluetooth P2P framework. Data is transmitted through an access point (AP) to an edge node (MQTT publisher) and subsequently to a cloud-based Electronic Medical Record (EMR) system. A MITM attacker node is introduced within the NS-3 environment to intercept and manipulate traffic, primarily targeting WIP flows. The architecture integrates a distributed FL-IDS for real-time anomaly detection and a blockchain layer for secure, tamper-resistant logging of events and mitigation actions.
