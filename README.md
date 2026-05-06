@@ -24,7 +24,7 @@ This reveals a critical research gap: the absence of a unified, standards-aligne
 The proposed architecture models a heterogeneous IoMT environment comprising medical devices (including a Baxter Wireless Infusion Pump (WIP) and a Hexoskin Smart Health System (SHS)), communication infrastructure, and backend services (shown in Figure 1). 
 
 <img width="1028" height="531" alt="image" src="https://github.com/user-attachments/assets/8bcad3d0-8773-4234-ac03-27b5e4127c6c" />
-Figure 1: IoMT network architecture with MITM attack vector, FL-IDS detection layer, and blockchain audit logging (RM Rajab et al., 2025)
+##### Figure 1: IoMT network architecture with MITM attack vector, FL-IDS detection layer, and blockchain audit logging (RM Rajab et al., 2025)
 
 The WIP is throughput-critical—concerned primarily with reliable delivery of infusion commands—while the SHS is timing-critical, requiring consistent packet inter-arrival intervals for accurate physiological monitoring.
 
