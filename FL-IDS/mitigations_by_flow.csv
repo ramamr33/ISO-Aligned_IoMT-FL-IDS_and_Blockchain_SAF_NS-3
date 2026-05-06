@@ -1,0 +1,19 @@
+Device,FlowID,ASI_score,Severity,Mitigation,PriorityScore,ActionLevel,CriticalityFactor,CompleteLoss
+WIP,1,69.94191075418962,High,"Investigate bandwidth/path, QoS, encryption, routing. Escalate immediately; incident response.",69.94,Warning,1.0,No
+WIP,2,54.33621149229963,High,"Investigate bandwidth/path, QoS, encryption, routing. Escalate immediately; incident response.",54.34,Warning,1.0,No
+WIP,3,51.48355885963913,High,"Investigate bandwidth/path, QoS, encryption, routing. Escalate immediately; incident response.",51.48,Warning,1.0,No
+WIP,4,49.62262237101359,Medium,"Investigate bandwidth/path, QoS, encryption, routing. Increase monitoring & schedule remediation.",49.62,Normal,1.0,No
+WIP,5,48.90825902969554,Medium,"Investigate bandwidth/path, QoS, encryption, routing. Increase monitoring & schedule remediation.",48.91,Normal,1.0,No
+WIP,6,41.83815163993552,Medium,"Investigate bandwidth/path, QoS, encryption, routing. Increase monitoring & schedule remediation.",41.84,Normal,1.0,No
+WIP,7,51.649789936057005,High,"Investigate bandwidth/path, QoS, encryption, routing. Escalate immediately; incident response.",51.65,Warning,1.0,No
+WIP,8,49.21433815846005,Medium,"Investigate bandwidth/path, QoS, encryption, routing. Increase monitoring & schedule remediation.",49.21,Normal,1.0,No
+WIP,9,100.0,High,"CRITICAL: Complete packet loss detected. Investigate bandwidth/path, QoS, encryption, routing. Emergency response required.",100.0,Critical,1.0,Yes
+SHS,1,79.97023514105507,High,"Investigate latency sources, queueing; implement redundancy/QoS. Escalate immediately; incident response.",67.97,Warning,0.85,No
+SHS,2,57.447824118880305,High,Examine scheduling/buffers; apply smoothing/buffering. Escalate immediately; incident response.,48.83,Normal,0.85,No
+SHS,3,48.419652664279795,Medium,"Investigate latency sources, queueing; implement redundancy/QoS. Increase monitoring & schedule remediation.",41.16,Normal,0.85,No
+SHS,4,34.20611250964935,Medium,"Investigate bandwidth/path, QoS, encryption, routing. Increase monitoring & schedule remediation.",29.08,Normal,0.85,No
+SHS,5,26.09999760302984,Medium,"Investigate bandwidth/path, QoS, encryption, routing. Increase monitoring & schedule remediation.",22.18,Normal,0.85,No
+SHS,6,26.846505228383116,Medium,"Investigate bandwidth/path, QoS, encryption, routing. Increase monitoring & schedule remediation.",22.82,Normal,0.85,No
+SHS,7,24.220324237904713,Low,"Investigate bandwidth/path, QoS, encryption, routing.",20.59,Normal,0.85,No
+SHS,8,24.354020203872505,Low,"Investigate bandwidth/path, QoS, encryption, routing.",20.7,Normal,0.85,No
+SHS,9,100.0,High,"CRITICAL: Complete packet loss detected. Investigate latency sources, queueing; implement redundancy/QoS. Emergency response required.",85.0,Critical,0.85,Yes
