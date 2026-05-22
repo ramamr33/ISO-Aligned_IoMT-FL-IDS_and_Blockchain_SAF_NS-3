@@ -61,6 +61,7 @@ ASI = (TRR + PLR + NDI + JVI) / 4   (5)
 To reflect the distinct clinical priorities of each device—derived from ISO/IEEE 11073 performance tolerances—a device-weighted wASI is applied. For the WIP, throughput and packet delivery are availability-critical (infusion command delivery); for the SHS, delay and jitter are integrity-critical (physiological signal fidelity):
 
 wASI_WIP = (0.4 × TRR) + (0.3 × PLR) + (0.2 × NDI) + (0.1 × JVI)   (6)
+
 wASI_SHS = (0.2 × TRR) + (0.2 × PLR) + (0.3 × NDI) + (0.3 × JVI)   (7)
 
 All metric computations were validated through manual recalculation of 10% of flows (100% concordance), boundary testing, internal consistency checks (PLR + PDR ≈ 100%), and baseline validation against NS-3 reference performance and ISO/IEEE 11073 clinical thresholds. Table II summarises each of the derived metrics and its device-specific sensitivity.
