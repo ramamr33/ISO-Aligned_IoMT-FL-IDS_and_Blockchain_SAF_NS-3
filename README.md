@@ -56,6 +56,7 @@ NDI = (D_attack - D_normal) / D_normal × 100   (3)
 JVI = |J_attack - J_normal| / J_normal × 100   (4)
 
 An unweighted Attack Severity Index (ASI) aggregates the four metrics:
+
 ASI = (TRR + PLR + NDI + JVI) / 4   (5)
 
 To reflect the distinct clinical priorities of each device—derived from ISO/IEEE 11073 performance tolerances—a device-weighted wASI is applied. For the WIP, throughput and packet delivery are availability-critical (infusion command delivery); for the SHS, delay and jitter are integrity-critical (physiological signal fidelity):
