@@ -43,9 +43,11 @@ The MITM attacker performs selective packet interception, delay injection, and t
 Attack impact is quantified using four derived metrics computed from NS-3 FlowMonitor XML output. 
 
 •	The Throughput Reduction Ratio (TRR) measures the percentage decrease in network throughput due to the attack:
+
 TRR = (T_normal - T_attack) / T_normal × 100   (1)
 
 •	The Packet Loss Ratio (PLR) is derived from the Packet Delivery Ratio (PDR):
+
 PDR = (P_received / P_sent) × 100,    PLR = 100 - PDR   (2)
 
 •	The Network Delay Increase (NDI) measures the percentage increase in one-way delay (OWD) relative to baseline, aligned with ITU-T Y.1541:
@@ -53,6 +55,7 @@ PDR = (P_received / P_sent) × 100,    PLR = 100 - PDR   (2)
 NDI = (D_attack - D_normal) / D_normal × 100   (3)
 
 •	The Jitter Variation Increase (JVI) quantifies the normalised change in packet delay variation (PDV):
+
 JVI = |J_attack - J_normal| / J_normal × 100   (4)
 
 An unweighted Attack Severity Index (ASI) aggregates the four metrics:
