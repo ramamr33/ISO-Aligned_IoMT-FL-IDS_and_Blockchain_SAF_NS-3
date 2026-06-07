@@ -1,4 +1,4 @@
-# ISO Standards Aligned IoMT FL-IDS and Blockchain Security Assessment Framework using NS-3
+# ISO Standards-Aligned IoMT FL-IDS and Blockchain Security Assessment Framework using NS-3
 
 ## A Standards-Aligned IoMT Federated Learning and Blockchain Framework for MITM Mitigation and Risk Quantification using NS-3
 Supplementary Appendix Available at: https://doi.org/10.5281/zenodo.20060440
