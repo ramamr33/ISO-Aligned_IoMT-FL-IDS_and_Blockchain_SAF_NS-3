@@ -1,0 +1,600 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+=== IoMT FL-IDS & Blockchain Framework — Rajab et al. Journal ===
+Standards-Aligned MITM Risk Quantification and Governance
+ISO Standards (own risk mappings):
+  - ISO/IEEE 11073  : Clinical thresholds, wASI 5-band severity
+  - ISO 14971       : Device priority scoring, 4-level action taxonomy
+  - ISO/IEC 27001   : Annex A control gap (A.12.6.1/A.12.4.2/A.12.7.3)
+  - ISO/IEC 27005   : CIA risk levels (None/Low/Medium/High/Critical)
+IEC 80001-1 (Healthcare IT Network Governance umbrella):
+  - NHS CAF-DSPT   : Domains A-D
+  - NHS RAG Register: Likelihood x Impact scoring (Red/Orange/Amber/Green)
+  - FDA ALARP       : Residual risk acceptability per flow
+  - HL7-FHIR        : Security use-case and dimension mapping
+FL-IDS: REAL per-node local models (SGD) + multi-round weighted FedAvg,
+        fused with wASI>=25 domain threshold for detection.
+================================================================
+
+[BluetoothEnergy] time: 0 s, node: 10, state: 0, total_energy: 0 kWh
+[BluetoothEnergy] time: 0 s, node: 10, state: 1, total_energy: 0 kWh
+[QoS Chapter 6] Flow 2 baseDelay=0.003 jitterBound=0.0002
+[QoS Chapter 6] Flow 3 baseDelay=0.012 jitterBound=0.00012
+[QoS Chapter 6] Flow 4 baseDelay=0.016 jitterBound=0.0001
+[QoS Chapter 6] Flow 5 baseDelay=0.016 jitterBound=0.0001
+[QoS Chapter 6] Flow 6 baseDelay=0.018 jitterBound=0.00012
+[QoS Chapter 6] Flow 7 baseDelay=0.018 jitterBound=0.00012
+[QoS Chapter 6] Flow 8 baseDelay=0.018 jitterBound=0.00012
+[QoS Chapter 6] Flow 9 baseDelay=0.016 jitterBound=0.00015
+[QoS Chapter 6] Flow 1 baseDelay=0.003 jitterBound=0.0002
+
+========== Blockchain for Node 0 ==========
+Block 0:
+  Previous Hash: 0
+  Timestamp: 1788818582
+  Data: Encrypted(Genesis Block)
+  Hash: da6afe2a0cffc78a6a3c304b8c4d761de04984de72faea838d87f0d60fac010a
+  Digital Signature: vQZpcQooxnZ4WLfsuCGsogJ7Zk9ey0hyOhWFqlnrFlIjLhZu9QC+XSkUrWeDgBnD9kQ+gLlXQGl7JqP3w+7gJPRLUh5kFIaIJzKVBAx305UhN4RQcqVzdE/g+X32Azcb3WegvqdTxTN5bpQJpqBwIxxbbdkEBJJvQjnzs9UIwAQJdrzcDC3OTkoG91E5i0rph+YyDYskJ1mbuIXDArt3nawFaSHsCxEhOPeI4jrjK++4NJCvlTlbRGb4dq5ED9RYKZwf137FvG4og0UooX3dPRF1ImjzrQMRvpmlrCr8dQYqIboN5kJ28bt6kRgcoejBMKdjzZN8WZNUnrYeeJ9H1w==
+  Valid: Yes
+
+Block 1:
+  Previous Hash: da6afe2a0cffc78a6a3c304b8c4d761de04984de72faea838d87f0d60fac010a
+  Timestamp: 1788818582
+  Data: Encrypted(Baxter Pump data received)
+  Hash: 0e8894035643c500154037b80b8098f4add346eb38c56d50bba1cb018437a4e3
+  Digital Signature: gX/7wh9gdUwgdnkQ4EnZnkSeZ92rJgjXLj70OmlKcTp8z/k3dFAyKw7UJfuuCV6XlHaRkSYtEwb9R7cRnO1pRy3tjlOD7NDwk0AJve/WsubppTcMzyUuL+NCT2tfb1QqkWdOST09QR2JQ8Vm+/MCrY3seKwUJkfNlnpIGns9Vk4kO3dJDpjWqGNWV9+vraruApW3dM8osxNsswEaSuqbWCdNrCJ7zx7A/U0MMNQRlDsrf/BbgRZC6YkVxi+x3Y/x9jfQ0ABqiMIHLKo5C6c/Z7LHpUvJ8FexPHEtYjkyPheOStzSOtX5MxTMKkH6svMbQKlmMky6852ROrVwmXqOQg==
+  Valid: Yes
+
+Block 2:
+  Previous Hash: 0e8894035643c500154037b80b8098f4add346eb38c56d50bba1cb018437a4e3
+  Timestamp: 1788818582
+  Data: Encrypted(Smartphone data received)
+  Hash: ee96eb5d98527b258920186daf2794c1dba6f9420bb20f711e46a539ae5542e5
+  Digital Signature: UPEezMY1VzFXBsEuEcnsHXJoo84Duhcf4yitPaUXyoT9ntk+Q6GZByV0hmer3JI3scMsYbKraRsKxvN+yj9UyRHd1SXCw6gTbdRWDAc1DytzHZS3WAKDrTgKOnswigCPwqXV4AlWNlh2Y8S66hgIqQS1sdhJPMU1PqeNcRfDJxjaduntnaWTgfFlGdfkvD3Qy8H1nCeR5MXDqM2jd6ViW5onEwFwfeaSwKmHpvt+LJm59pA9hi3mo6tpJqhiPCdgpCgY7r/48T9SZNE0Kos2nGE/N0WffOP+QMBk0lfN4YxRux/5GEk5RoW8tyN5oSPCz4sTsGtN/2pscdn3vjQMsw==
+  Valid: Yes
+
+Block 3:
+  Previous Hash: ee96eb5d98527b258920186daf2794c1dba6f9420bb20f711e46a539ae5542e5
+  Timestamp: 1788818582
+  Data: Encrypted(Pulse Oximeter data received)
+  Hash: f52cbd93aab82a66a8a331dbf19425cf5326012ae38eed8bc75942ea8ad14353
+  Digital Signature: DAlb5mY8BjCLDe3tl50WKCJVMvhx7lFjqnTeiW1oIV5/cr8vDQyEC2M92W6BnphHzRSKszBh5fsLkRmTiFuwrPUlJ9WvyNRK7wpSDGn0WIRIwAm/e/Nv6tsINlpBUnRTBrnK1UR2o/k9zV5XIrlq+m9EovHRmRErbOuFZGQvi+XZDyJoVS09yMmxY6UnfPy8NzeyZyjZSFaRTiMfOSSrJ91pRPUZvx19vzlmFwyxMHZQz/OQW/pq4bBSwmF7TGityM9cdcHydHjYzLYDCzK8DRjfbEPJw97Bbn9ADG1qlzPtxDmhLujKU5+AwrUqmorBFKbmh34xKnQ35MYfx9cLRw==
+  Valid: Yes
+
+Block 4:
+  Previous Hash: f52cbd93aab82a66a8a331dbf19425cf5326012ae38eed8bc75942ea8ad14353
+  Timestamp: 1788818582
+  Data: Encrypted(Blood Pressure data received)
+  Hash: 3a2eaca5ce4d810c04584c8633726efa4ec327ab7cdeb33c2bbb7e8e8bc7e580
+  Digital Signature: d4ateN8fIdHh3jL+4ilS0nESxx21NzQGg7wdtJ5NiYlQ7rcOLrPk5MrCMKLU+Rh5I+A8BPwckWXcp6QIqnvOLXFt9s6p0AJOW0wkWhqyr4pt43raUehwSmDh9H4g55YCGUgqPpYLNUI2S7R0mhwrJRcsINOUHVT2lSlA0yvtHjAdjDhTIPUxh1tFDNCdReuC/loFPKSQ3ZM6z3MbH4ZPN/Vp99qGTzuBglNXLxOKXyW97uD3QnBD0IqMRaKhI1WdhoFCFr6lsys9p9Rwmg2j9+jWdGxmJhk+doQ4hV2x5V1rGmOsdQOshn7k5bMBWlysyZPruEIn+hpe8dgFgY1FVg==
+  Valid: Yes
+
+Block 5:
+  Previous Hash: 3a2eaca5ce4d810c04584c8633726efa4ec327ab7cdeb33c2bbb7e8e8bc7e580
+  Timestamp: 1788818582
+  Data: Encrypted(EMR NAS data received)
+  Hash: bc0f8b59d61d53506f089c6e6dab8a76795a5d7cb42cf0f2ac23e41a845de2a8
+  Digital Signature: Td4unCqNrtcL0IMH3h5BeNoDvFBtnB4viPnCTQw67iuqAI7qR2vKESjkPu7rGq/VVxQscKN9xlFfzcZr5uCylnwSQQi26UPgoZTijdXFkd0IA5bKvAn27qG4kXhZEjlyYmIuGY0snpv/HJBCFWD7VxXDw2BnbTWwVq72AhTHw4V4dAuzr23O+3MtjrwRJX3hKTrt+5cnX7aS5/HmL33pr69Q/Sy3D3GrGB9oKKT3Lb0M+1gqIh33d49Vh+zv06+kKwyJpPvkwC+P4ADg04ndV0FMocI68AXfRGQNd6Uw2OAZOhtugI3Gn7TdZ2JL2JCA9FY4sWEZjlZR8QpUhpJp3w==
+  Valid: Yes
+
+Block 6:
+  Previous Hash: bc0f8b59d61d53506f089c6e6dab8a76795a5d7cb42cf0f2ac23e41a845de2a8
+  Timestamp: 1788818582
+  Data: Encrypted(MQTT data received)
+  Hash: 872b110a443ac949695ef9e4c3cc3224e6f7a079fae69863b258dc0dda7f7069
+  Digital Signature: yW/jfONSMaqZW2HvM5OvZFuYZFDiTBfU6YVoTuaNXgaQma2tYeZ6TU54btebfw52kr/mDRqcMnUM6nCEceP/BL+KIBkoCE6p4EXCOnfjuztptO2LbfrywAx/5fpiNmClm7L3cL39jQqDUPtSEQSp18QCBqGQyoNWneeWViWY6YdBfocKYLQtT959Q3sGNnI46pQwrX7rBswB66bxtIdkWtKRiQbVOvGJafWnapR1trPoVC4moZ20ND2Nh+wfZmAJxcKHio5/xAs1p/hjUebcwzQRfQV9yuUHm68R14g7Ct4pijvHK/yUauKJtee0LxXJ9DUYvan9W4cyhQEwmBfRMg==
+  Valid: Yes
+
+Block 7:
+  Previous Hash: 872b110a443ac949695ef9e4c3cc3224e6f7a079fae69863b258dc0dda7f7069
+  Timestamp: 1788818582
+  Data: Encrypted(EMR Application data received)
+  Hash: 6349ff8b4b5283361aa15dd363f4dc796f536132784352e19879f7ec9093d29e
+  Digital Signature: rVCNHK2TvLpFCBRNrHlDQigh7HmMyKeD+nMVWCULngkQkoBtmBUIV6fg4hjHnatLmJFS5Zliyv+ut/o0YTVFzlFFjgCV11QFd1L9qIzfhFrt3/qRnCbg/o+m74MLWFFNd1NH6a8E10obHMfGQxEXgkZdGtrlMMul3h9fBrHgxX5SwBpottQ/j8Pj5UyS0YkMHTBpHW99ihRfYDaCztzObcOs/OvVzSUR5v7hy2qD3MFuiXWlR0lvXzBi6/d+ksvlJr/wgwSFqGrd+g67Ic0tExR12gN8UdUXPEQy4bDtLFvxgANMRuEmmCwW9vCzgrjpwYpMD6bUtsoX9n/fYk52tg==
+  Valid: Yes
+
+Block 8:
+  Previous Hash: 6349ff8b4b5283361aa15dd363f4dc796f536132784352e19879f7ec9093d29e
+  Timestamp: 1788818582
+  Data: Encrypted(Client Desktop PC data received)
+  Hash: d87a586317df7ff9c412617e3b3a76e136b00ffb7c7d26a7ba488f53ed61c6e3
+  Digital Signature: u2qsnYKhjijERJkaan+3uhLVzxnxSxlyOCS2yyLvvPjtyE9a1z2yWpXv01jTNFEd8D1VcrCDY2xFlv4R0PikSJxVoK3s+xkujaPBnmTNY1js1rFN5wO8EE2BOx8heGw1fO63Y2Q/02hJ3TJg1SLUsqRYPhygUXq+YOF1mszbzEF+fwEdAnqvdhkVUDYELD5xONEPqton+NchqdRvnpljVK/rcwRpZNXgYrNaxtKM5qBUp36ojbibx3DAh6MxjxeX5c+PDsceOSmTA3ZzMikDygDuxelQJvUcFHFfd3UTVOQ+fNGa+8sh3+HztZHSNAo+IoEvWoIhPk5asSJm+TwTRQ==
+  Valid: Yes
+
+Block 9:
+  Previous Hash: d87a586317df7ff9c412617e3b3a76e136b00ffb7c7d26a7ba488f53ed61c6e3
+  Timestamp: 1788818582
+  Data: Encrypted(Sensor Data: Hexoskin measurements received)
+  Hash: e4a45c859ffa0b9d92493633ef483dda9f4888a5eacde62d7f098faf0f8b9f5d
+  Digital Signature: K1gE9W9pqsxrMllyLizv30MbSM8QoI4sCOAOKlTk0LoYgunmPsgzqnhcvkuwYRVjERJVRncrOv4NojMLLbvNe2OjhNNNI8lK5Rw3rxvAW84k9kAVRU+ABznchMNT3zy1Rke5D6JfJTGXkuzACUPshDnCgbchA4xRXF0kVKj8dOob2+Lk5W6XmBq09HoU3uZgPgPZRilbunycgjFhioEu2MVdIRgO0B+mIPE/5g3DhVvH4Lj9QevuxunmsRCvaInUxJ2n6QjBpmAm3AjKnMWRdoPrGt9Tbgt901ZGbtFqgCjkF/wS8RVLHXxg1v/uueFuxf5Kt1R7g5TGrbt1zkvmEg==
+  Valid: Yes
+
+Chain Valid: Yes
+===============================================
+[FL-IDS] Node 0 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=WIP | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 1 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=WIP | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 2 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=WIP | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 3 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=WIP | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 4 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=WIP | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 5 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=SHS | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 6 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=SHS | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 7 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=SHS | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+[FL-IDS] Node 8 initialized: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | DeviceType=SHS | Detection: wASI>=25 (ISO/IEEE 11073 MEDIUM) OR trained local-model prob>=0.5
+Node 0 chain is VALID
+Blockchain exported to node_0_chain.csv
+Node 1 chain is VALID
+Blockchain exported to node_1_chain.csv
+Node 2 chain is VALID
+Blockchain exported to node_2_chain.csv
+Node 3 chain is VALID
+Blockchain exported to node_3_chain.csv
+Node 4 chain is VALID
+Blockchain exported to node_4_chain.csv
+Consensus reached with 1 votes:
+  - Node 3
+Pretend sending securely: Block Data
+Pretend sending securely: Medical Device Data
+Pretend received securely: Encrypted(Block Data)
+Encryption test - Original: Secret Medical Data, Recovered: Secret Medical Data
+Before Simulator::Run()
+[BluetoothEnergy] time: 5 s, node: 10, state: 0, total_energy: 4.16667e-08 kWh
+[BluetoothEnergy] time: 5.2 s, node: 10, state: 1, total_energy: 6.66667e-08 kWh
+[BluetoothEnergy] time: 10 s, node: 10, state: 0, total_energy: 1.06667e-07 kWh
+[QoS Adapt] Flow 1 threat=HIGH newJitter=0.0003 newDelay=0.0024
+[QoS Adapt] Flow 2 threat=HIGH newJitter=0.0003 newDelay=0.0024
+[QoS Adapt] Flow 3 threat=MEDIUM newJitter=0.0036 newDelay=0.0096
+[QoS Adapt] Flow 4 threat=MEDIUM newJitter=0.0048 newDelay=0.0128
+[QoS Adapt] Flow 5 threat=MEDIUM newJitter=0.0048 newDelay=0.0128
+[QoS Adapt] Flow 6 threat=MEDIUM newJitter=0.0054 newDelay=0.018
+[QoS Adapt] Flow 7 threat=HIGH newJitter=0.0018 newDelay=0.018
+[QoS Adapt] Flow 8 threat=MEDIUM newJitter=0.0054 newDelay=0.018
+[QoS Adapt] Flow 9 threat=MEDIUM newJitter=0.0048 newDelay=0.016
+[QoS Adapt] Flow 1 threat=CRITICAL newJitter=0 newDelay=0.00192
+[QoS Adapt] Flow 7 threat=CRITICAL newJitter=0 newDelay=0.018
+[FedAvg][WIP] Round 1 complete | mean local training loss=0.0000 | global weights broadcast to 5 nodes
+[FedAvg][SHS] Round 1 complete | mean local training loss=0.0000 | global weights broadcast to 4 nodes
+[FL-IDS] Federated Learning Round Complete (Real Local-Model + FedAvg):
+ Node 0: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5122 | trainAccuracy=0.0000 | anomaly=no
+ Node 1: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5122 | trainAccuracy=0.0000 | anomaly=no
+ Node 2: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5122 | trainAccuracy=0.0000 | anomaly=no
+ Node 3: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5122 | trainAccuracy=0.0000 | anomaly=no
+ Node 4: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5122 | trainAccuracy=0.0000 | anomaly=no
+ Node 5: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5096 | trainAccuracy=0.0000 | anomaly=no
+ Node 6: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5096 | trainAccuracy=0.0000 | anomaly=no
+ Node 7: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5096 | trainAccuracy=0.0000 | anomaly=no
+ Node 8: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5096 | trainAccuracy=0.0000 | anomaly=no
+WIP FedAvg round=1 globalLoss=0.0000 | SHS FedAvg round=1 globalLoss=0.0000
+Node 0 Sockets after start:
+  AppIdx 0: PacketSink, Listening Port: 8080 IP: 192.168.1.1
+Node 1 Sockets after start:
+  AppIdx 0: PacketSink, Listening Port: 8070 IP: 10.1.1.2
+  AppIdx 2: PacketSink, Listening Port: 8090 IP: 192.168.1.2
+Node 2 Sockets after start:
+  AppIdx 1: PacketSink, Listening Port: 8100 IP: 192.168.1.2
+Node 3 Sockets after start:
+  AppIdx 1: PacketSink, Listening Port: 8110 IP: 192.168.1.3
+Node 4 Sockets after start:
+  AppIdx 1: PacketSink, Listening Port: 8120 IP: 192.168.1.5
+Node 5 Sockets after start:
+  AppIdx 1: PacketSink, Listening Port: 8883 IP: 192.168.1.6
+Node 6 Sockets after start:
+  AppIdx 1: PacketSink, Listening Port: 8130 IP: 192.168.1.7
+Node 7 Sockets after start:
+  AppIdx 1: PacketSink, Listening Port: 8140 IP: 192.168.1.8
+Node 7 Sockets after start:
+  AppIdx 1: PacketSink, Listening Port: 8140 IP: 192.168.1.8
+Node 0 Sockets after start:
+[BluetoothEnergy] time: 10.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 15.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 15.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 20.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[QoS Adapt] Flow 1 threat=HIGH newJitter=0.0002 newDelay=0.0015
+[QoS Adapt] Flow 4 threat=HIGH newJitter=0.0013 newDelay=0.0102
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 79.4573 [CRITICAL]
+  Local FL model probability: 0.5253
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Escalate immediately; incident response; FHIR breach notification. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 79.4573 [CRITICAL]
+  Local FL model probability: 0.5253
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Escalate immediately; incident response; FHIR breach notification. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 79.4573 [CRITICAL]
+  Local FL model probability: 0.5253
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Escalate immediately; incident response; FHIR breach notification. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 79.4573 [CRITICAL]
+  Local FL model probability: 0.5253
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Escalate immediately; incident response; FHIR breach notification. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 79.4573 [CRITICAL]
+  Local FL model probability: 0.5253
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Escalate immediately; incident response; FHIR breach notification. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+[QoS Adapt] Flow 1 threat=CRITICAL newJitter=0.0000 newDelay=0.0012
+[QoS Adapt] Flow 4 threat=MEDIUM newJitter=0.0031 newDelay=0.0082
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: SHS  Flow: 7
+  wASI: 86.5752 [CRITICAL]
+  Local FL model probability: 0.5299
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: C - Detecting cyber-security events
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Examine scheduling/buffers; apply jitter smoothing/buffering. Escalate immediately; incident response; FHIR breach notification. WARNING SHS: jitter corrupts physiological signals — apply PDV buffering.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: SHS  Flow: 7
+  wASI: 86.5752 [CRITICAL]
+  Local FL model probability: 0.5299
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: C - Detecting cyber-security events
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Examine scheduling/buffers; apply jitter smoothing/buffering. Escalate immediately; incident response; FHIR breach notification. WARNING SHS: jitter corrupts physiological signals — apply PDV buffering.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: SHS  Flow: 7
+  wASI: 86.5752 [CRITICAL]
+  Local FL model probability: 0.5299
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: C - Detecting cyber-security events
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Examine scheduling/buffers; apply jitter smoothing/buffering. Escalate immediately; incident response; FHIR breach notification. WARNING SHS: jitter corrupts physiological signals — apply PDV buffering.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: SHS  Flow: 7
+  wASI: 86.5752 [CRITICAL]
+  Local FL model probability: 0.5299
+  ISO/IEC 27005 Risk: Critical
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.13/A.17 not operationalised for real-time IoMT risk
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: C - Detecting cyber-security events
+  NHS RAG: Orange (L=5 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=5)
+  HL7-FHIR Dimension: All FHIR security dimensions compromised
+  HL7-FHIR Action: Avoidance — urgent isolation; FHIR breach notification; clinical failover
+  Mitigation: Examine scheduling/buffers; apply jitter smoothing/buffering. Escalate immediately; incident response; FHIR breach notification. WARNING SHS: jitter corrupts physiological signals — apply PDV buffering.
+====================================
+[FedAvg][WIP] Round 2 complete | mean local training loss=0.0000 | global weights broadcast to 5 nodes
+[FedAvg][SHS] Round 2 complete | mean local training loss=0.0000 | global weights broadcast to 4 nodes
+[FL-IDS] Federated Learning Round Complete (Real Local-Model + FedAvg):
+ Node 0: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5126 | trainAccuracy=0.0000 | anomaly=no
+ Node 1: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5126 | trainAccuracy=0.0000 | anomaly=no
+ Node 2: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5126 | trainAccuracy=0.0000 | anomaly=no
+ Node 3: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5126 | trainAccuracy=0.0000 | anomaly=no
+ Node 4: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5126 | trainAccuracy=0.0000 | anomaly=no
+ Node 5: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5100 | trainAccuracy=0.0000 | anomaly=no
+ Node 6: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5100 | trainAccuracy=0.0000 | anomaly=no
+ Node 7: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5100 | trainAccuracy=0.0000 | anomaly=no
+ Node 8: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5100 | trainAccuracy=0.0000 | anomaly=no
+WIP FedAvg round=2 globalLoss=0.0000 | SHS FedAvg round=2 globalLoss=0.0000
+[BluetoothEnergy] time: 20.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 25.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 25.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 30.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[QoS Adapt] Flow 1 threat=HIGH newJitter=0.0001 newDelay=0.0010
+[QoS Adapt] Flow 4 threat=HIGH newJitter=0.0008 newDelay=0.0066
+[QoS Adapt] Flow 7 threat=HIGH newJitter=0.0018 newDelay=0.0180
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 72.6403 [HIGH]
+  Local FL model probability: 0.5215
+  ISO/IEC 27005 Risk: High
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.17 insufficient for real-time availability
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=4 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=4)
+  HL7-FHIR Dimension: Data Management Policies; Narrative integrity
+  HL7-FHIR Action: Avoidance — immediate FHIR audit trail activation; flow isolation
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Urgent: enable TLS/mutual auth + redundant path + enhanced FL-IDS. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 72.6403 [HIGH]
+  Local FL model probability: 0.5215
+  ISO/IEC 27005 Risk: High
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.17 insufficient for real-time availability
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=4 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=4)
+  HL7-FHIR Dimension: Data Management Policies; Narrative integrity
+  HL7-FHIR Action: Avoidance — immediate FHIR audit trail activation; flow isolation
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Urgent: enable TLS/mutual auth + redundant path + enhanced FL-IDS. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 72.6403 [HIGH]
+  Local FL model probability: 0.5215
+  ISO/IEC 27005 Risk: High
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.17 insufficient for real-time availability
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=4 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=4)
+  HL7-FHIR Dimension: Data Management Policies; Narrative integrity
+  HL7-FHIR Action: Avoidance — immediate FHIR audit trail activation; flow isolation
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Urgent: enable TLS/mutual auth + redundant path + enhanced FL-IDS. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 72.6403 [HIGH]
+  Local FL model probability: 0.5215
+  ISO/IEC 27005 Risk: High
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.17 insufficient for real-time availability
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=4 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=4)
+  HL7-FHIR Dimension: Data Management Policies; Narrative integrity
+  HL7-FHIR Action: Avoidance — immediate FHIR audit trail activation; flow isolation
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Urgent: enable TLS/mutual auth + redundant path + enhanced FL-IDS. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+
+=== EMERGENCY RESPONSE TRIGGERED ===
+  Device: WIP  Flow: 7
+  wASI: 72.6403 [HIGH]
+  Local FL model probability: 0.5215
+  ISO/IEC 27005 Risk: High
+  ISO 14971 Action: Action | Urgent response
+  ISO/IEC 27001 Gap: YES | A.12/A.17 insufficient for real-time availability
+  IEC 80001-1 Pillar: Safety
+  NHS CAF-DSPT: B - Protecting against cyber-attack
+  NHS RAG: Orange (L=4 I=2)
+  FDA ALARP Residual Risk Acceptable: No (Probability=4)
+  HL7-FHIR Dimension: Data Management Policies; Narrative integrity
+  HL7-FHIR Action: Avoidance — immediate FHIR audit trail activation; flow isolation
+  Mitigation: Investigate bandwidth/path, QoS, TLS/SSL, routing. Urgent: enable TLS/mutual auth + redundant path + enhanced FL-IDS. URGENT WIP: packet loss threatens dosage accuracy — redundant path mandatory.
+====================================
+[QoS Adapt] Flow 1 threat=CRITICAL newJitter=0.0000 newDelay=0.0008
+[QoS Adapt] Flow 4 threat=MEDIUM newJitter=0.0020 newDelay=0.0052
+[QoS Adapt] Flow 7 threat=CRITICAL newJitter=0.0000 newDelay=0.0180
+[FedAvg][WIP] Round 3 complete | mean local training loss=0.0000 | global weights broadcast to 5 nodes
+[FedAvg][SHS] Round 3 complete | mean local training loss=0.0000 | global weights broadcast to 4 nodes
+[FL-IDS] Federated Learning Round Complete (Real Local-Model + FedAvg):
+ Node 0: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5127 | trainAccuracy=0.0000 | anomaly=no
+ Node 1: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5127 | trainAccuracy=0.0000 | anomaly=no
+ Node 2: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5127 | trainAccuracy=0.0000 | anomaly=no
+ Node 3: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5127 | trainAccuracy=0.0000 | anomaly=no
+ Node 4: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5127 | trainAccuracy=0.0000 | anomaly=no
+ Node 5: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5101 | trainAccuracy=0.0000 | anomaly=no
+ Node 6: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5101 | trainAccuracy=0.0000 | anomaly=no
+ Node 7: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5101 | trainAccuracy=0.0000 | anomaly=no
+ Node 8: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5101 | trainAccuracy=0.0000 | anomaly=no
+WIP FedAvg round=3 globalLoss=0.0000 | SHS FedAvg round=3 globalLoss=0.0000
+[BluetoothEnergy] time: 30.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 35.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 35.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 40.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[QoS Adapt] Flow 1 threat=HIGH newJitter=0.0001 newDelay=0.0006
+[QoS Adapt] Flow 4 threat=HIGH newJitter=0.0005 newDelay=0.0042
+[QoS Adapt] Flow 7 threat=HIGH newJitter=0.0018 newDelay=0.0180
+[QoS Adapt] Flow 1 threat=CRITICAL newJitter=0.0000 newDelay=0.0005
+[QoS Adapt] Flow 4 threat=MEDIUM newJitter=0.0013 newDelay=0.0034
+[FedAvg][WIP] Round 4 complete | mean local training loss=0.0000 | global weights broadcast to 5 nodes
+[FedAvg][SHS] Round 4 complete | mean local training loss=0.0000 | global weights broadcast to 4 nodes
+[FL-IDS] Federated Learning Round Complete (Real Local-Model + FedAvg):
+ Node 0: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5128 | trainAccuracy=0.0000 | anomaly=no
+ Node 1: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5128 | trainAccuracy=0.0000 | anomaly=no
+ Node 2: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5128 | trainAccuracy=0.0000 | anomaly=no
+ Node 3: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5128 | trainAccuracy=0.0000 | anomaly=no
+ Node 4: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5128 | trainAccuracy=0.0000 | anomaly=no
+ Node 5: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5103 | trainAccuracy=0.0000 | anomaly=no
+ Node 6: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5103 | trainAccuracy=0.0000 | anomaly=no
+ Node 7: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5103 | trainAccuracy=0.0000 | anomaly=no
+ Node 8: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | localMLProb=0.5103 | trainAccuracy=0.0000 | anomaly=no
+WIP FedAvg round=4 globalLoss=0.0000 | SHS FedAvg round=4 globalLoss=0.0000
+[BluetoothEnergy] time: 40.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 45.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 45.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+Max Packets per trace file exceeded
+[BluetoothEnergy] time: 50.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 50.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 55.0000 s, node: 10, state: 0, total_energy: 0.0000 kWh
+[BluetoothEnergy] time: 55.2000 s, node: 10, state: 1, total_energy: 0.0000 kWh
+[QoS Adapt] Flow 1 threat=HIGH newJitter=0.0001 newDelay=0.0004
+[QoS Adapt] Flow 1 threat=CRITICAL newJitter=0.0000 newDelay=0.0003
+[FedAvg][WIP] Round 5 complete | mean local training loss=0.0000 | global weights broadcast to 5 nodes
+[FedAvg][SHS] Round 5 complete | mean local training loss=0.0000 | global weights broadcast to 4 nodes
+[FL-IDS] Final Federated Learning Status (Real Local-Model + FedAvg):
+ Node 0: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5129 | anomaly=no
+ Node 1: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5129 | anomaly=no
+ Node 2: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5129 | anomaly=no
+ Node 3: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5129 | anomaly=no
+ Node 4: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5129 | anomaly=no
+ Node 5: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5104 | anomaly=no
+ Node 6: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5104 | anomaly=no
+ Node 7: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5104 | anomaly=no
+ Node 8: Federated Local-Model IDS (real per-node SGD + multi-round FedAvg) | trainingSamples=0 | trainAccuracy=0.0000 | localMLProb=0.5104 | anomaly=no
+WIP FedAvg total rounds=5 finalGlobalLoss=0.0000
+SHS FedAvg total rounds=5 finalGlobalLoss=0.0000
+Detection criterion: wASI >= 25.0000 (ISO/IEEE 11073 MEDIUM threshold) OR trained local-model prob >= 0.5
+Simulation almost done!
+⚠️ Simulating blockchain tampering by attacker
+🚨 Tampered block inserted into Node 2 blockchain.
+Simulation time after run: 60.0000
+Simulation finished!
+Flow ID: 1
+  Tx Packets: 294
+  Rx Packets: 294
+  Lost Packets: 0
+  Throughput: 3.0576 kbps
+Flow ID: 2
+  Tx Packets: 1
+  Rx Packets: 1
+  Lost Packets: 0
+  Throughput: 0.0048 kbps
+Flow ID: 3
+  Tx Packets: 7080
+  Rx Packets: 7079
+  Lost Packets: 0
+  Throughput: 509.6880 kbps
+Flow ID: 4
+  Tx Packets: 7080
+  Rx Packets: 7073
+  Lost Packets: 6
+  Throughput: 267.8309 kbps
+Flow ID: 5
+  Tx Packets: 7080
+  Rx Packets: 7079
+  Lost Packets: 0
+  Throughput: 268.0581 kbps
+Flow ID: 6
+  Tx Packets: 7080
+  Rx Packets: 7076
+  Lost Packets: 3
+  Throughput: 267.9445 kbps
+Flow ID: 7
+  Tx Packets: 7080
+  Rx Packets: 6838
+  Lost Packets: 241
+  Throughput: 258.9323 kbps
+Flow ID: 8
+  Tx Packets: 7080
+  Rx Packets: 7079
+  Lost Packets: 0
+  Throughput: 268.0581 kbps
+Flow ID: 9
+  Tx Packets: 6591
+  Rx Packets: 6591
+  Lost Packets: 0
+  Throughput: 249.5792 kbps
+
+=== MULTI-STANDARD RISK ASSESSMENT SUMMARY ===
+Journal: Rajab et al. FL-IDS & Blockchain MITM Framework
+Standards: ISO/IEEE 11073 | ISO 14971 | ISO 27001 | ISO 27005 | IEC 80001-1
+IEC 80001-1 sub-frameworks: NHS CAF-DSPT | NHS RAG | FDA ALARP | HL7-FHIR
+Total flows analysed: 405
+
+ISO/IEEE 11073 Severity Distribution:
+  NONE: 0
+  LOW: 0
+  MEDIUM: 255
+  HIGH: 113
+  CRITICAL: 37
+
+ISO/IEC 27005 Risk Level Distribution:
+  None: 0
+  Low: 0
+  Medium: 255
+  High: 113
+  Critical: 37
+
+ISO 14971 Action Level Distribution:
+  Action: 14
+  Review: 259
+  Warning: 132
+
+[IEC 80001-1] NHS RAG Distribution:
+  Amber: 135
+  Green: 120
+  Orange: 150
+
+[IEC 80001-1] FDA ALARP — Residual Risk Unacceptable: 150 of 405 flows (37.0370%)
+
+Complete Packet Loss Flows: 0
+
+Top 10 Most Critical Flows (by wASI):
+  1. SHS-F7 wASI=86.58 [CRITICAL] ISO27005=Critical ISO14971=Action RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  2. SHS-F7 wASI=86.58 [CRITICAL] ISO27005=Critical ISO14971=Action RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  3. SHS-F7 wASI=86.58 [CRITICAL] ISO27005=Critical ISO14971=Action RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  4. SHS-F7 wASI=86.58 [CRITICAL] ISO27005=Critical ISO14971=Action RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  5. SHS-F1 wASI=79.97 [CRITICAL] ISO27005=Critical ISO14971=Warning RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  6. SHS-F1 wASI=79.97 [CRITICAL] ISO27005=Critical ISO14971=Warning RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  7. SHS-F1 wASI=79.97 [CRITICAL] ISO27005=Critical ISO14971=Warning RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  8. SHS-F1 wASI=79.97 [CRITICAL] ISO27005=Critical ISO14971=Warning RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  9. SHS-F1 wASI=79.97 [CRITICAL] ISO27005=Critical ISO14971=Warning RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+  10. SHS-F1 wASI=79.97 [CRITICAL] ISO27005=Critical ISO14971=Warning RAG=Orange FDA=No FHIR=All FHIR security dimensions compromised
+===============================================
+
