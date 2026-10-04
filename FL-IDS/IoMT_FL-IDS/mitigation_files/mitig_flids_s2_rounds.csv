@@ -1,0 +1,14 @@
+time,framework,round,mean_loss,nodes_or_flows_flagged,decision,mitm_active
+10,flids,1,0.459319,9,DETECT,0
+15,attacker,0,,,ARMED,1
+20,flids,2,0.445387,9,DETECT,1
+20,flids,0,,,MITIGATED,0
+30,attacker,0,,,ARMED,1
+30,flids,3,0.457829,9,DETECT,1
+30,flids,0,,,MITIGATED,0
+40,attacker,0,,,ARMED,1
+40,flids,4,0.469677,9,DETECT,1
+40,flids,0,,,MITIGATED,0
+50,attacker,0,,,ARMED,1
+58,flids,5,0.478295,9,DETECT,1
+58,flids,0,,,MITIGATED,0

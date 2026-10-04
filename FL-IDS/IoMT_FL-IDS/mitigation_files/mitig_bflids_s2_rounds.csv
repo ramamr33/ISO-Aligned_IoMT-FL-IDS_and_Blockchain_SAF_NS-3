@@ -1,0 +1,7 @@
+time,framework,round,mean_loss,nodes_or_flows_flagged,decision,mitm_active
+10,bflids,1,0.23744,0,clear,0
+15,attacker,0,,,ARMED,1
+20,bflids,2,0.111772,0,clear,1
+30,bflids,3,0.196718,0,clear,1
+40,bflids,4,0.748935,0,clear,1
+50,bflids,5,1.096,0,clear,1
